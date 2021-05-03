@@ -1,0 +1,145 @@
+{
+	"info": {
+		"_postman_id": "95b157c2-6bf3-4291-b321-00d3efa51314",
+		"name": "Homework_2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Endpoint_1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/object_info_1?age=36&weight=65&name=Katia",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"object_info_1"
+					],
+					"query": [
+						{
+							"key": "age",
+							"value": "36"
+						},
+						{
+							"key": "weight",
+							"value": "65"
+						},
+						{
+							"key": "name",
+							"value": "Katia"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Endpoint_2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/object_info_2?age=25&salary=500&name=Andrew",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"object_info_2"
+					],
+					"query": [
+						{
+							"key": "age",
+							"value": "25"
+						},
+						{
+							"key": "salary",
+							"value": "500"
+						},
+						{
+							"key": "name",
+							"value": "Andrew"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Endpoint_7",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "age",
+							"value": "50",
+							"type": "text"
+						},
+						{
+							"key": "salary",
+							"value": "7500",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "Viktor",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{url}}/user_info_3",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"user_info_3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Endpoint_8",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "age",
+							"value": "22",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "Vitalik",
+							"type": "text"
+						},
+						{
+							"key": "salary",
+							"value": "1200",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{url}}/user_info_4",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"user_info_4"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
